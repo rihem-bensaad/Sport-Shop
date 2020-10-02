@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	  <script src="rihem dhia.js"></script>
+	<link rel="stylesheet" type="text/css" href="rihem dhia.CSS">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<title>Sport Shop</title>	
+	<nav class="navbar">
+  <a class="navbar-brand"> Sport Shop </a>
+  <div id='d1'>
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link">NewProduction<span class="sr-only">(current)</span></a>
+      </li>
+      <li onclick="clickclothes('Man')"  class="nav-item">
+        <a class="nav-link">Man</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      </li>
+      <li  onclick="clickclothes('woman')" class="nav-item">
+        <a class="nav-link">Woman</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      </li>
+      <li onclick="clickclothes('kids-boy')" class="nav-item">
+        <a class="nav-link" id="kids1">Boys</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      </li>
+        <li onclick="clickclothes('kids-girl')" class="nav-item">
+        <a class="nav-link" id="kids2">Girls</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      </li>
+
+       <li onclick="clickclothes('equipment')"  class="nav-item">
+        <a class="nav-link">Equipment</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      </li>
+      
+         <li onclick="clickclothes('contact')"  class="nav-item">
+        <a class="nav-link">Contact</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      </li>
+
+<input class="form-control" type="text" placeholder="Search" aria-label="Search" >
+    </ul>
+  </div>
+</nav>
+
+ </div>
+</nav>
+
+</head>
+
+<body>
+	<div class="container-fluid split right">
+  <h1 align="center" style="color:#ffffff"></h1>
+  <div id="d2" class="row">
+   <h2 style="text-align:center"></h2>
+
+<div class="card" style="display: flex">
+  <div>
+  <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/06/1762/1.jpg?8463" alt="Denim Jeans" style="width:100%">
+  <h1>Ball - Mini Model - cut 2 - Blue/red/black   </h1>
+  <p class="price">$19.99</p>
+  <button id="a">Add to Basket</button>
+</div>
+</div>
+<div class="card" style="display: flex">
+<div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/94/5531/1.jpg?9366" alt="Denim Jeans" style="width:100%">
+  <h1>Kif Sport Jump Rope - 5.0 - Blue/Gray</h1>
+  <p class="price">$17.99</p>
+  <button id="b">Add to Basket</button>
+</div>
+</div>
+<div class="card" style="display: flex">
+<div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/31/928/1.jpg?4800" alt="Denim Jeans" style="width:100%">
+  <h1>Liveup Matelas nbr - Blue/Green/Pink</h1>
+  <p class="price">$54.09</p>
+  <button id="c">Add to Basket</button>
+</div>
+</div>
+
+<div class="card" style="display: flex">
+<div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/842/1.jpg?4903" alt="Denim Jeans" style="width:100%">
+  <h1> Sportswear - Reush - Mens's Sport - Blue</h1>
+  <p class="price">$94.09</p>
+  <button id="d">Add to Basket</button>
+</div>
+</div>
+
+<div class="card" style="display: flex">
+  <div>
+     <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/33/2172/1.jpg?8766" alt="Denim Jeans" style="width:100%">
+  <h1> Sportswear - Hummel - Gray/Orange</h1>
+  <p class="price">$78.12</p>
+  <button id="e">Add to Basket</button>
+</div>
+</div>
+
+  <div class="card" style="display: flex">
+    <div>
+      <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/48/9922/1.jpg?9579" alt="Denim Jeans" style="width:100%">
+  <h1> Aichun Beauty Cream Abs - Eight Pack - Flat</h1>
+  <p class="price">$98.12</p>
+  <button id="f">Add to Basket</button>
+  </div>
+  </div>
+
+
+<div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/55/0362/1.jpg?9541" alt="Denim Jeans" style="width:100%">
+  <h1> San Antonio Shoes - Kappa - Black - Kids </h1>
+  <p class="price">$198.12</p>
+  <button id="g">Add to Basket</button>
+
+  </div>
+  </div>
+
+<div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/67/2892/1.jpg?5832" alt="Denim Jeans" style="width:100%">
+  <h1> Shoes Tensaur - Adidas - Blue - Kids </h1>
+  <p class="price">$158</p>
+  <button id="h">Add to Basket</button>
+</div>
+  </div>
+
+  <div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/79/3412/1.jpg?8212" alt="Denim Jeans" style="width:100%">
+  <h1> Shoes Aerocharge - Hummel - Blue  </h1>
+  <p class="price">$280</p>
+  <button id="i">Add to Basket</button>
+</div>
+  </div>
+
+   <div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/2892/1.jpg?5832" alt="Denim Jeans" style="width:100%">
+  <h1> Shoes Running - Under Armour - Black  </h1>
+  <p class="price">$250</p>
+  <button id="i">Add to Basket</button>
+</div>
+  </div>
+
+     <div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/57/6672/1.jpg?7452" alt="Denim Jeans" style="width:100%">
+  <h1> PROTABAR - PROTEIN  - 50G - CHOCOLAT </h1>
+  <p class="price">$650</p>
+  <button id="i">Add to Basket</button>
+</div>
+  </div>
+
+     <div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/30/9942/1.jpg?9085" alt="Denim Jeans" style="width:100%">
+  <h1> Whey - PROTEIN  - 2kg - Strawberry </h1>
+  <p class="price">$850</p>
+  <button id="i">Add to Basket</button>
+</div>
+  </div>
+
+     <div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/12/6271/1.jpg?3548" alt="Denim Jeans" style="width:100%">
+  <h1> Amanda tight - Hummel - Woman - black </h1>
+  <p class="price">$180</p>
+  <button id="i">Add to Basket</button>
+</div>
+  </div>
+
+    <div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/91/4512/1.jpg?1618" alt="Denim Jeans" style="width:100%">
+  <h1> Sports Top - Woman - Hummel - blue </h1>
+  <p class="price">$80</p>
+  <button id="i">Add to Basket</button>
+</div>
+  </div>
+
+  <div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/49/2342/1.jpg?5685" alt="Denim Jeans" style="width:100%">
+  <h1> T-Shirt HMLVARITO - Woman - tee </h1>
+  <p class="price">$75</p>
+  <button id="i">Add to Basket</button>
+</div>
+  </div>
+
+ <div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/62/7722/1.jpg?6293" alt="Denim Jeans" style="width:100%">
+  <h1> Giacca Texas - Man - Legea - Royal & White </h1>
+  <p class="price">$175</p>
+  <button id="i">Add to Basket</button>
+</div>
+  </div>
+
+    <div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/5531/1.jpg?9537" alt="Denim Jeans" style="width:100%">
+  <h1> Chronomètre 2T - Zimota - gray/blue </h1>
+  <p class="price">$87</p>
+  <button id="i">Add to Basket</button>
+</div>
+  </div>
+
+      <div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/49/4612/1.jpg?6766" alt="Denim Jeans" style="width:100%">
+  <h1>  Exercise Bike - Zimota - Black & green </h1>
+  <p class="price">$870</p>
+  <button id="i">Add to Basket</button>
+</div>
+  </div>
+
+      <div class="card" style="display: flex">
+  <div>
+    <img src="https://tn.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/51/3362/1.jpg?0392" alt="Denim Jeans" style="width:100%">
+  <h1>  Conveyor Belt - KIF - Black </h1>
+  <p class="price">$2.070</p>
+  <button id="i">Add to Basket</button>
+</div>
+  </div>
+
+</div>
+</div>
+
+<h4>Total:<span id="revenue"></span></h4>
+  <button id='reset'>Reset</button>
+  	<script>
+// $(document).ready(function(){
+
+// 	var d2=document.getElementById("d2");
+// 	var result='';
+// 	for(var i=0; i<clothes.length;i++){
+// 		result+="<img width='250' heigh= '250' src= '"+clothes[i].url+"'/>";
+// 		result+="<h3>"+clothes[i].type +"<br>"+clothes[i].size+"<br>"+clothes[i].price+"<br>"+clothes[i].name+"<br>"+clothes[i].genr+"</h3>"; 
+// 	}
+// 	$('#d2').append(result)
+	
+// })
+		</script>
+	
+	  
+</body>
+</html>
